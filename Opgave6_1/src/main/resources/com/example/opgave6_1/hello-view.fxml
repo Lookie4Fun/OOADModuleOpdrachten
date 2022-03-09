@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="120.0" layoutY="14.0" text="Hogeschool Utrecht" textFill="RED">
+         <font>
+            <Font size="31.0" />
+         </font></Label>
+      <Label layoutX="78.0" layoutY="37.0" text="WELKOM" textFill="#0004ff">
+         <font>
+            <Font size="83.0" />
+         </font></Label>
+      <Button layoutX="394.0" layoutY="246.0" mnemonicParsing="false" text="Button" />
+      <Label layoutX="68.0" layoutY="166.0" text="Gebruikersnaam:" />
+      <Label layoutX="68.0" layoutY="203.0" text="Wachtwoord:" />
+      <TextField layoutX="171.0" layoutY="162.0" prefHeight="25.0" prefWidth="264.0" />
+      <TextField layoutX="171.0" layoutY="199.0" prefHeight="25.0" prefWidth="264.0" />
+   </children>
+</AnchorPane>
